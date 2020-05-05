@@ -12,3 +12,105 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.cards{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 1vh;
+}
+
+.profileImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1vw;
+}
+
+.greetings {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 1vw;
+  font-size: 2em;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.mainCC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px
+}
+
+.cc {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 20vw;
+}
+
+.ccLogo {
+  display: flex;
+  justify-content: flex-end;
+  width: 20vw;
+}
+.ccNumber{
+  height: 10vh;
+}
+.ccBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 5vh
+}
+
+.ratingTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 10vh;
+}
+
+.singleRating {
+  max-height: 5vh;
+}
+
+.driverCard {
+  background-color: #3e55aa;
+  width: 97vw;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+  padding: 20px;
+}
+
+.imageDriver {
+  width: 5vw;
+  height: 10vh;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.driver{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.likeButton button {
+  margin: 2vw;
+  height: 3vh;
+  width: 4vw
+}
